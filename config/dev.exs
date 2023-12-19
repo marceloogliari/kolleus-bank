@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :kolleus_bank, KolleusBank.Repo,
   username: "postgres",
-  password: "postgres1",
+  password: "postgres",
   hostname: "localhost",
   database: "kolleus_bank_dev",
   stacktrace: true,
